@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<link rel="stylesheet" href="../static/leaflet/leaflet.css" crossorigin="" />
+		<style type="text/css">
+			#map {
+				width: 100%;
+				height: 100%;
+				background: #cccccc;
+			}
+			
+			html,
+			body {
+				margin: 0;
+				width: 100%;
+				height: 100%;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="map"></div>
+		<script src="../dist/mapway.layer.js"></script>
+
+		<script type="text/javascript">
+			//	var leafletMap = L.map('map').setView([34, 104], 4);
+			//			L.tileLayer("http://{s}.tile.osm.org/{z}/{x}/{y}.png")
+			//				.addTo(leafletMap);
+			var leafletMap = L.map('map').setView([25, -105], 5);
+			var basemap="http://map.geoq.cn/ArcGIS/rest/services/ChinaOnlineStreetPurplishBlue/MapServer/tile/{z}/{y}/{x}";
+			var basemap1="http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
+			L.tileLayer(basemap)
+				.addTo(leafletMap);
+			var urlline = "http://editor.giscloud.com/t/1325120683,1325155366/map384884/layer1036208,layer1036211";
+			var urllable = "http://editor.giscloud.com/t/1325155366/map384884/layer1036211";
+			var urlpolygon = "http://editor.giscloud.com/t/1496937920,1509032773,1509032678/map403485/layer1147105,layer2097728,layer2097562/uso,volextanua,titular";
+			var urlpolygon1 = "http://editor.giscloud.com/t/1496937920/map403485/layer2097562";
+			var u="http://editor.giscloud.com/t/1513820510,1513820510/map384888/layer1036216,llayer1036216";
+			var urlpoint="http://editor.giscloud.com/t/1496937920/map403485/layer1147105/uso,volextanua,titular";
+			var url1="http://editor.giscloud.com/t/1325168292/map384888/layer1036216/{z}/{x}/{y}.json";
+			var url2="http://editor.giscloud.com/t/1325191598/map384887/layer1036215/{z}/{x}/{y}.json";
+			var mwTileLayer = new MWL.MWLayer(urlpoint);
+			leafletMap.addLayer(mwTileLayer);
+		</script>
+	</body>
+
+</html>

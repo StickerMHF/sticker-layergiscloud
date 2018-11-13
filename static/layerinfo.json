@@ -1,0 +1,55 @@
+{
+		"id": "layer1036215",
+		"alpha": 1,
+		"visible": true,
+		"timestamp": "1325191598",
+		"src": "s1",
+		"features": [
+			{
+				"type": "polygon",
+				"styleName": "layer1036215_style4",
+				"fillcolor": "#F71E1E",
+				"strokecolor": "#BF002D",
+				"linewidth": 0,
+				"expression": "unemployme>=20 AND unemployme <= 31",
+				"expressionLabel": "unemployme>=24.86 AND unemployme <= 30.799999999999997"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036215_style3",
+				"fillcolor": "#FFA01C",
+				"strokecolor": "#C9560E",
+				"linewidth": 0,
+				"expression": "unemployme>=15 AND unemployme < 20",
+				"expressionLabel": "unemployme>=18.92 AND unemployme < 24.86"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036215_style2",
+				"fillcolor": "#FFEB36",
+				"strokecolor": "#FFC640",
+				"linewidth": 0,
+				"expression": "unemployme>=10 AND unemployme < 15",
+				"expressionLabel": "unemployme>=12.979999999999999 AND unemployme < 18.919999999999998"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036215_style1",
+				"fillcolor": "#9CF233",
+				"strokecolor": "#54D404",
+				"linewidth": 0,
+				"expression": "unemployme>=5 AND unemployme < 10",
+				"expressionLabel": "unemployme>=7.039999999999999 AND unemployme < 12.979999999999999"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036215_style0",
+				"fillcolor": "#1CE63A",
+				"strokecolor": "#20BA2F",
+				"linewidth": 0,
+				"expression": "unemployme>=1 AND unemployme < 5",
+				"expressionLabel": "unemployme>=1.1 AND unemployme < 7.039999999999999"
+			}
+		],
+		"xmin": -179.23109,
+		"ymin": 17.84427,
+		"xmax": 179.85968,
+		"ymax": 71.43884,
+		"oldLayer": null
+	}

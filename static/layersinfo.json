@@ -1,0 +1,743 @@
+{
+	"layer2097728":{"id":"layer2097728","alpha":0.6,"visible":true,"has_icon": true,"timestamp":"1509032773","src":"s5","features":[{"type":"polygon","icon":"http://editor.giscloud.com/rest/1/icons/landcover/Bush_fill.png?color=%23006f9e&size=32","styleName":"layer2097728_style0","fillcolor":"#938953","strokecolor":"#000000","linewidth":0,"expression":"tipo_de__n='Aprovechamiento de Recursos Forestales No Maderables'","expressionLabel":"Aprovechamiento de Recursos Forestales No Maderables"}],"xmin":-13037205.31871,"ymin":1638295.69674,"xmax":-9659828.8523,"ymax":3847482.98071,"oldLayer":null},
+	"layer2097731":{"id":"layer2097731","alpha":0.58,"visible":false,"timestamp":"1509033045","src":"s7","features":[{"type":"polygon","styleName":"layer2097731_style0","fillcolor":"#FF0000","strokecolor":"#000000","linewidth":0,"expression":"tipo_de__n='Cambio de Uso de Suelo'","expressionLabel":"Cambio de Uso de Suelo"}],"xmin":-13037205.31871,"ymin":1638295.69674,"xmax":-9659828.8523,"ymax":3847482.98071,"oldLayer":null},
+	"layer2097556":{"id":"layer2097556","alpha":0.6,"visible":false,"timestamp":"1509033232","src":"s9","features":[{"type":"polygon","styleName":"layer2097556_style0","fillcolor":"#FFFF00","strokecolor":"#000000","linewidth":0,"expression":"tipo_de__n='NotificaciÃ³n de Saneamiento Forestal'","expressionLabel":"Saneamiento Forestal"}],"xmin":-13037205.31871,"ymin":1638295.69674,"xmax":-9659828.8523,"ymax":3847482.98071,"oldLayer":null},
+	"layer2097560":{"id":"layer2097560","alpha":0.6,"visible":false,"timestamp":"1509033164","src":"s11","features":[{"type":"polygon","styleName":"layer2097560_style0","fillcolor":"#66FFFF","strokecolor":"#000000","linewidth":0,"expression":"tipo_de__n='Plantaciones Forestales Comerciales'","expressionLabel":"Plantación Forestal Comercial"}],"xmin":-13037205.31871,"ymin":1638295.69674,"xmax":-9659828.8523,"ymax":3847482.98071,"oldLayer":null},
+	"layer1977849":{"id":"layer1977849","alpha":1,"visible":false,"timestamp":"1501018751","src":"s15","tooltip":"tipo","features":[{"type":"point","styleName":"pointstyle1977849-0","icon":"http://resources.giscloud.com/assets/icon.php?cors=1&p=%2F2564d747e0504b9a17a3a4e334c0bc12%2FLayers_738924%2FuploadedSymbols%2Fsymbol_4a39e449a591db1545d6d61b724d6a0f.png","dx":-10.5,"dy":-10.5}],"has_icon":true,"xmin":-13032005.82349,"ymin":1700406.69598,"xmax":-9666032.73904,"ymax":3843005.78424,"oldLayer":null},
+	"layer1147071":{"id":"layer1147071","alpha":1,"visible":false,"timestamp":"1496937920","src":"s21","tooltip":"sitio,energia","features":[{"type":"point","styleName":"pointstyle1147071-0","expression":"energia='Solar'","icon":"http://resources.giscloud.com/assets/icon.php?cors=1&p=http%3A%2F%2Feditor.giscloud.com%2Frest%2F1%2Ficons%2Fpower%2Fstation_solar.png%3Fcolor%3D%2523ffc000%26size%3D20","dx":-5,"dy":-5}],"has_icon":true,"xmin":-13033443.721795,"ymin":1689200.139608,"xmax":-9654916.323171,"ymax":3842686.200843,"oldLayer":null},
+	"layer1147080":{"id":"layer1147080","alpha":1,"visible":false,"timestamp":"1496937921","src":"s23","tooltip":"sitio,energia","features":[{"type":"point","styleName":"pointstyle1147080-0","expression":"energia='Eólica'","icon":"http://resources.giscloud.com/assets/icon.php?cors=1&p=%2F2564d747e0504b9a17a3a4e334c0bc12%2FSENER%2FuploadedSymbols%2Feolica.png","dx":-10.5,"dy":-10.5}],"has_icon":true,"xmin":-13033443.721795,"ymin":1689200.139608,"xmax":-9654916.323171,"ymax":3842686.200843,"oldLayer":null},
+	"layer1147079":{"id":"layer1147079","alpha":1,"visible":false,"timestamp":"1496937920","src":"s25","tooltip":"sitio,energia","features":[{"type":"point","styleName":"pointstyle1147079-0","expression":"energia='Geotérmica'","icon":"http://resources.giscloud.com/assets/icon.php?cors=1&p=%2F2564d747e0504b9a17a3a4e334c0bc12%2FSENER%2FuploadedSymbols%2Fgeotermica.png","dx":-8.5,"dy":-8.5}],"has_icon":true,"xmin":-13033443.721795,"ymin":1689200.139608,"xmax":-9654916.323171,"ymax":3842686.200843,"oldLayer":null},
+	"layer1147077":{"id":"layer1147077","alpha":1,"visible":false,"timestamp":"1496937921","src":"s27","tooltip":"sitio,energia","features":[{"type":"point","styleName":"pointstyle1147077-0","expression":"(energia='Hidráulica' and tipo='Grande Hidroeléctrica')","icon":"http://resources.giscloud.com/assets/icon.php?cors=1&p=%2F2564d747e0504b9a17a3a4e334c0bc12%2FSENER%2FuploadedSymbols%2Fhidro_grande.png","dx":-10.5,"dy":-10.5}],"has_icon":true,"xmin":-13033443.721795,"ymin":1689200.139608,"xmax":-9654916.323171,"ymax":3842686.200843,"oldLayer":null},
+	"layer1147078":{"id":"layer1147078","alpha":1,"visible":false,"timestamp":"1496937920","src":"s29","tooltip":"sitio,energia","features":[{"type":"point","styleName":"pointstyle1147078-0","expression":"(energia='Hidráulica' and tipo='Pequeña Hidroeléctrica')","icon":"http://resources.giscloud.com/assets/icon.php?cors=1&p=%2F2564d747e0504b9a17a3a4e334c0bc12%2FSENER%2FuploadedSymbols%2Fhidro_pequ.png","dx":-10.5,"dy":-10.5}],"has_icon":true,"xmin":-13033443.721795,"ymin":1689200.139608,"xmax":-9654916.323171,"ymax":3842686.200843,"oldLayer":null},
+	"layer1147081":{"id":"layer1147081","alpha":1,"visible":false,"timestamp":"1496937920","src":"s31","tooltip":"sitio,energia","features":[{"type":"point","styleName":"pointstyle1147081-0","expression":"energia='Biomasa'","icon":"http://resources.giscloud.com/assets/icon.php?cors=1&p=%2F2564d747e0504b9a17a3a4e334c0bc12%2FSENER%2FuploadedSymbols%2Fbiomasa.png","dx":-11.5,"dy":-11.5}],"has_icon":true,"xmin":-13033443.721795,"ymin":1689200.139608,"xmax":-9654916.323171,"ymax":3842686.200843,"oldLayer":null},
+	"layer1147073":{"id":"layer1147073","alpha":1,"visible":false,"timestamp":"1496937920","src":"s33","tooltip":"sitio,energia","features":[{"type":"point","clustering":14,"fillcolor":"#e20000","styleName":"pointstyle1147073-0","width":10,"expression":"energia='Oceánica'","icon":"http://resources.giscloud.com/assets/icon.php?cors=1&p=http%3A%2F%2Feditor.giscloud.com%2Frest%2F1%2Ficons%2Fwater%2Fweir.png%3Fcolor%3D%2523ff0000%26size%3D32","dx":-5,"dy":-5}],"has_icon":true,"xmin":-13033443.721795,"ymin":1689200.139608,"xmax":-9654916.323171,"ymax":3842686.200843,"oldLayer":null},
+	"layer1147637":{"id":"layer1147637","alpha":1,"visible":false,"timestamp":"1496937920","src":"s37","tooltip":"nombre,tipo","features":[{"type":"point","styleName":"pointstyle1147637-0","expression":"energia='Solar'","icon":"http://resources.giscloud.com/assets/icon.php?cors=1&p=http%3A%2F%2Feditor.giscloud.com%2Frest%2F1%2Ficons%2Fpower%2Fstation_solar.png%3Fcolor%3D%2523ffc000%26size%3D20","dx":-5,"dy":-5}],"has_icon":true,"xmin":-13015288.737361,"ymin":1684742.580532,"xmax":-9669446.744985,"ymax":3834929.266458,"oldLayer":null},
+	"layer1147638":{"id":"layer1147638","alpha":1,"visible":false,"timestamp":"1496937920","src":"s39","tooltip":"nombre,tipo","features":[{"type":"point","styleName":"pointstyle1147638-0","expression":"energia='Eólica'","icon":"http://resources.giscloud.com/assets/icon.php?cors=1&p=%2F2564d747e0504b9a17a3a4e334c0bc12%2FSENER%2FuploadedSymbols%2Feolica.png","dx":-10.5,"dy":-10.5}],"has_icon":true,"xmin":-13015288.737361,"ymin":1684742.580532,"xmax":-9669446.744985,"ymax":3834929.266458,"oldLayer":null},
+	"layer1147639":{"id":"layer1147639","alpha":1,"visible":false,"timestamp":"1496937920","src":"s41","tooltip":"nombre,tipo","features":[{"type":"point","styleName":"pointstyle1147639-0","expression":"energia='Geotérmica'","icon":"http://resources.giscloud.com/assets/icon.php?cors=1&p=%2F2564d747e0504b9a17a3a4e334c0bc12%2FSENER%2FuploadedSymbols%2Fgeotermica.png","dx":-8.5,"dy":-8.5}],"has_icon":true,"xmin":-13015288.737361,"ymin":1684742.580532,"xmax":-9669446.744985,"ymax":3834929.266458,"oldLayer":null},
+	"layer1147640":{"id":"layer1147640","alpha":1,"visible":false,"timestamp":"1496937920","src":"s43","tooltip":"nombre,tipo","features":[{"type":"point","styleName":"pointstyle1147640-0","expression":"(energia='Hidráulica' and tipo='Grande Hidroeléctrica')","icon":"http://resources.giscloud.com/assets/icon.php?cors=1&p=%2F2564d747e0504b9a17a3a4e334c0bc12%2FSENER%2FuploadedSymbols%2Fhidro_grande.png","dx":-10.5,"dy":-10.5}],"has_icon":true,"xmin":-13015288.737361,"ymin":1684742.580532,"xmax":-9669446.744985,"ymax":3834929.266458,"oldLayer":null},
+	"layer1147641":{"id":"layer1147641","alpha":1,"visible":false,"timestamp":"1496937920","src":"s45","tooltip":"nombre,tipo","features":[{"type":"point","styleName":"pointstyle1147641-0","expression":"(energia='Hidráulica' and tipo='Pequeña Hidroeléctrica')","icon":"http://resources.giscloud.com/assets/icon.php?cors=1&p=%2F2564d747e0504b9a17a3a4e334c0bc12%2FSENER%2FuploadedSymbols%2Fhidro_pequ.png","dx":-10.5,"dy":-10.5}],"has_icon":true,"xmin":-13015288.737361,"ymin":1684742.580532,"xmax":-9669446.744985,"ymax":3834929.266458,"oldLayer":null},
+	"layer1147642":{"id":"layer1147642","alpha":1,"visible":false,"timestamp":"1496937920","src":"s47","tooltip":"nombre,tipo","features":[{"type":"point","styleName":"pointstyle1147642-0","expression":"energia='Biomasa'","icon":"http://resources.giscloud.com/assets/icon.php?cors=1&p=%2F2564d747e0504b9a17a3a4e334c0bc12%2FSENER%2FuploadedSymbols%2Fbiomasa.png","dx":-11.5,"dy":-11.5}],"has_icon":true,"xmin":-13015288.737361,"ymin":1684742.580532,"xmax":-9669446.744985,"ymax":3834929.266458,"oldLayer":null},
+	"layer1147106":{"id":"layer1147106","alpha":1,"visible":false,"timestamp":"1496937921","src":"s51","tooltip":"titular,voldesc,tip_desc","features":[{"type":"point","styleName":"pointstyle1147106-0","icon":"http://resources.giscloud.com/assets/icon.php?cors=1&type=box&color=255,192,0&border=0,0,0&bw=1&size=4","dx":-3,"dy":-3}],"has_icon":true,"xmin":-13036804.913632,"ymin":0,"xmax":0,"ymax":4266733.285253,"oldLayer":null},
+	"layer1147105":{"id":"layer1147105","alpha":1,"visible":false,"timestamp":"1496937920","src":"s53","tooltip":"titular,volextanua,uso","features":[{"type":"point","styleName":"pointstyle1147105-1","expression":"archivo='AprovSuperf'","icon":"http://resources.giscloud.com/assets/icon.php?cors=1&type=circle&color=0,112,192&border=0,0,0&bw=1&size=4","dx":-3,"dy":-3},{"type":"point","styleName":"pointstyle1147105-0","expression":"archivo='AprovSubterr'","icon":"http://resources.giscloud.com/assets/icon.php?cors=1&type=circle&color=255,0,0&border=0,0,0&bw=1&size=4","dx":-3,"dy":-3}],"has_icon":true,"xmin":-13852875.733042,"ymin":0,"xmax":0,"ymax":6620605.851952,"oldLayer":null},
+	"layer1147076":{"id":"layer1147076","alpha":1,"visible":false,"timestamp":"1496937921","src":"s57","tooltip":"sitio,energia","features":[{"type":"point","styleName":"pointstyle1147076-0","expression":"energia='Nuclear'","icon":"http://resources.giscloud.com/assets/icon.php?cors=1&p=%2F2564d747e0504b9a17a3a4e334c0bc12%2FSENER%2FuploadedSymbols%2Furanio.png","dx":-9.5,"dy":-9.5}],"has_icon":true,"xmin":-13033443.721795,"ymin":1689200.139608,"xmax":-9654916.323171,"ymax":3842686.200843,"oldLayer":null},
+	"layer1081035":{
+		"id":"layer1081035",
+		"alpha":0.49,"visible":false,"timestamp":"1496937919","src":"s59","tooltip":"aptt_min",
+		"features":[{
+			"type":"polygon","styleName":"layer1081035_style3","fillcolor":"#0000FF","strokecolor":"#6E6E6E","linewidth":0,"expression":"(APTT_MIN  = 'BAJO' )","expressionLabel":"BAJO","icon":"http://editor.giscloud.com/rest/1/icons/landcover/Grass.png?color=%23006f9e&size=32"},
+			{"type":"polygon","styleName":"layer1081035_style2","fillcolor":"#00DDFF","strokecolor":"#6E6E6E","linewidth":0,"expression":"(APTT_MIN  = 'MEDIO' )","icon":"http://resources.giscloud.com/assets/icon.php?cors=1&p=%2Ficons%2Fdefaulticon.png","expressionLabel":"MEDIO"},
+			{"type":"polygon","styleName":"layer1081035_style1","fillcolor":"#CFFF30","strokecolor":"#6E6E6E","linewidth":0,"expression":"(APTT_MIN  = 'ALTO' )","icon":"http://editor.giscloud.com/rest/1/icons/landcover/Grass.png?color=%23006f9e&size=32","expressionLabel":"ALTO"},
+			{"type":"polygon","styleName":"layer1081035_style0","fillcolor":"#E60000","strokecolor":"#6E6E6E","linewidth":0,"expression":"(APTT_MIN  = 'MUY ALTO' )",
+			"expressionLabel":"MUY ALTO"}],"has_icon": true, "xmin":-13038871.682356,"ymin":1589781.719584,"xmax":-9490178.513658,"ymax":3833584.998161,"oldLayer":null},
+	"layer1081034":{"id":"layer1081034","alpha":0.6,"visible":false,"timestamp":"1496937920","src":"s61","features":[{"type":"polygon","styleName":"layer1081034_style0","fillcolor":"#FFFF00","strokecolor":"#6E6E6E","linewidth":0}],"xmin":-12982646.416138,"ymin":1609268.14373,"xmax":-9757856.472584,"ymax":3827797.79427,"oldLayer":null},
+	"layer1146650":{"id":"layer1146650","alpha":0.6,"visible":false,"timestamp":"1496937921","src":"s63","features":[{"type":"polygon","styleName":"layer1146650_style0","fillcolor":"#FFCCCC","strokecolor":"#FFC000","linewidth":0}],"xmin":-12982646.416138,"ymin":1735846.52658,"xmax":-9748672.882572,"ymax":3826869.098866,"oldLayer":null},
+	"layer1081033":{"id":"layer1081033","alpha":0.6,"visible":false,"timestamp":"1496937921","src":"s65","tooltip":"titular,sust1","features":[{"type":"polygon","styleName":"layer1081033_style0","fillcolor":"#FFFFBE","strokecolor":"#FFFF00","linewidth":0}],"xmin":-12784650.448246,"ymin":1727560.866897,"xmax":-10104024.451611,"ymax":3801342.049199,"oldLayer":null},
+	"layer1834863":{"id":"layer1834863","alpha":0.57,"visible":false,"timestamp":"1502398416","src":"s67","features":[{"type":"polygon","styleName":"layer1834863_style0","fillcolor":"#E36C09","strokecolor":"#FF0000","linewidth":0}],"xmin":-13021218.8994,"ymin":1621878.71361,"xmax":-9763275.80021,"ymax":3846928.36345,"oldLayer":null},
+	"layer1977854":{"id":"layer1977854","alpha":1,"visible":false,"timestamp":"1501012743","src":"s71","tooltip":"name","features":[{"type":"point","styleName":"pointstyle1977854-0","icon":"http://resources.giscloud.com/assets/icon.php?cors=1&type=circle&color=192,0,0&border=0,0,0&bw=1&size=10","dx":-6,"dy":-6}],"has_icon":true,"xmin":-11704363.029185,"ymin":1830034.168507,"xmax":-10295818.142586,"ymax":3207094.956663,"oldLayer":null},
+	"layer1977851":{"id":"layer1977851","alpha":1,"visible":false,"timestamp":"1501012840","src":"s73","tooltip":"name","features":[{"type":"point","styleName":"pointstyle1977851-0","icon":"http://resources.giscloud.com/assets/icon.php?cors=1&type=circle&color=255,255,0&border=0,0,0&bw=1&size=10","dx":-6,"dy":-6}],"has_icon":true,"xmin":-11704363.029185,"ymin":1830034.168507,"xmax":-10295818.142586,"ymax":3207094.956663,"oldLayer":null},
+	"layer1977850":{"id":"layer1977850","alpha":1,"visible":false,"timestamp":"1501020172","src":"s75","tooltip":"name","features":[{"type":"point","styleName":"pointstyle1977850-0","icon":"http://resources.giscloud.com/assets/icon.php?cors=1&type=circle&color=102,255,51&border=0,0,0&bw=1&size=10","dx":-6,"dy":-6}],"has_icon":true,"xmin":-11704363.029185,"ymin":1830034.168507,"xmax":-10295818.142586,"ymax":3207094.956663,"oldLayer":null},
+	"layer1977856":{"id":"layer1977856","alpha":1,"visible":false,"timestamp":"1501011082","src":"s77","tooltip":"name","features":[{"type":"point","styleName":"pointstyle1977856-0","icon":"http://resources.giscloud.com/assets/icon.php?cors=1&type=box&color=227,108,9&border=0,0,0&bw=1&size=8","dx":-5,"dy":-5}],"has_icon":true,"xmin":-13032086.291924,"ymin":1657681.849479,"xmax":-9981005.06415,"ymax":3839691.858986,"oldLayer":null},
+	"layer1977855":{"id":"layer1977855","alpha":1,"visible":false,"timestamp":"1501011390","src":"s79","tooltip":"kml_folder,name","features":[{"type":"point","styleName":"pointstyle1977855-0","icon":"http://resources.giscloud.com/assets/icon.php?cors=1&type=box&color=0,255,255&border=0,0,0&bw=1&size=8","dx":-5,"dy":-5}],"has_icon":true,"xmin":-13032402.884556,"ymin":1830202.967857,"xmax":-10372570.148501,"ymax":3812617.642878,"oldLayer":null},
+	"layer1977852":{"id":"layer1977852","alpha":1,"visible":false,"timestamp":"1501019792","src":"s81","tooltip":"etiqueta","features":[{"type":"point","styleName":"pointstyle1977852-0","icon":"http://resources.giscloud.com/assets/icon.php?cors=1&p=http%3A%2F%2Feditor.giscloud.com%2Frest%2F1%2Ficons%2Fplace_of_worship%2Funknown3.png%3Fcolor%3D%2523e36c09%26size%3D20","dx":-5,"dy":-5}],"has_icon":true,"xmin":-11495254.835635,"ymin":1921542.079519,"xmax":-10013681.400419,"ymax":3346630.536557,"oldLayer":null},
+	"layer1146756":{"id":"layer1146756","alpha":1,"visible":false,"timestamp":"1503423292","src":"s83","tooltip":"well_name","features":[{"type":"point","styleName":"pointstyle1146756-0","icon":"http://resources.giscloud.com/assets/icon.php?cors=1&p=%2F2564d747e0504b9a17a3a4e334c0bc12%2FHidrocarburos%2FuploadedSymbols%2FPozo_Azul.png","dx":-13.5,"dy":-13.5}],"has_icon":true,"xmin":-12820369.98991,"ymin":546712.30119,"xmax":-9765215.09661,"ymax":3812857.22467,"oldLayer":null},
+	"layer1146736":{"id":"layer1146736","alpha":0.7,"visible":false,"timestamp":"1496937920","src":"s85","tooltip":"name","features":[{"type":"polygon","styleName":"layer1146736_style0","fillcolor":"#FFAA00","strokecolor":"#000000","linewidth":0}],"xmin":-11374120.401407,"ymin":1969453.938585,"xmax":-10233386.609925,"ymax":3373162.065331,"oldLayer":null},
+	"layer1978101":{"id":"layer1978101","alpha":1,"visible":false,"timestamp":"1501023629","src":"s89","tooltip":"tipo,nomlabel","features":[{"type":"line","styleName":"layer1978101_style0","strokecolor":"#4DAF4A","linewidth":2,"expression":"tipo='Oleogasoducto'","expressionLabel":"Oleogasoducto"}],"xmin":-13052258.31081,"ymin":1625433.37804,"xmax":-9500324.67517,"ymax":3832031.21874,"oldLayer":null},
+	"layer1978105":{"id":"layer1978105","alpha":1,"visible":false,"timestamp":"1501023681","src":"s91","tooltip":"tipo,nomlabel","features":[{"type":"line","styleName":"layer1978105_style0","strokecolor":"#FF7F00","linewidth":2,"expression":"tipo='Otro'","expressionLabel":"Otro"}],"xmin":-13052258.31081,"ymin":1625433.37804,"xmax":-9500324.67517,"ymax":3832031.21874,"oldLayer":null},
+	"layer1977720":{"id":"layer1977720","alpha":1,"visible":false,"timestamp":"1501023709","src":"s93","tooltip":"tipo,nomlabel","features":[{"type":"line","styleName":"layer1977720_style0","strokecolor":"#984EA3","linewidth":2,"expression":"tipo='Poliducto'","expressionLabel":"Poliducto"}],"xmin":-13052258.31081,"ymin":1625433.37804,"xmax":-9500324.67517,"ymax":3832031.21874,"oldLayer":null},
+	"layer1978104":{"id":"layer1978104","alpha":1,"visible":false,"timestamp":"1501023543","src":"s95","tooltip":"tipo,nomlabel","features":[{"type":"line","styleName":"layer1978104_style0","strokecolor":"#E41A1C","linewidth":2,"expression":"tipo='Oleoducto'","expressionLabel":"Oleoducto"}],"xmin":-13052258.31081,"ymin":1625433.37804,"xmax":-9500324.67517,"ymax":3832031.21874,"oldLayer":null},
+	"layer1978103":{"id":"layer1978103","alpha":1,"visible":false,"timestamp":"1501023511","src":"s97","tooltip":"tipo,nomlabel","features":[{"type":"line","styleName":"layer1978103_style0","strokecolor":"#377EB8","linewidth":2,"expression":"tipo='Gasoducto'","expressionLabel":"Gasoducto"}],"xmin":-13052258.31081,"ymin":1625433.37804,"xmax":-9500324.67517,"ymax":3832031.21874,"oldLayer":null},
+	"layer2009246":{"id":"layer2009246","alpha":1,"visible":false,"timestamp":"1503423615","src":"s101","tooltip":"well_name","features":[{"type":"point","styleName":"pointstyle2009246-0","expression":"fracking='S'","icon":"http://resources.giscloud.com/assets/icon.php?cors=1&p=%2F2564d747e0504b9a17a3a4e334c0bc12%2FHidrocarburos%2FuploadedSymbols%2FPozo_Rojo.png","dx":-13.5,"dy":-13.5}],"has_icon":true,"xmin":-12820369.98991,"ymin":546712.30119,"xmax":-9765215.09661,"ymax":3812857.22467,"oldLayer":null},
+	"layer1146763":{"id":"layer1146763","alpha":0.59,"visible":false,"timestamp":"1496937921","src":"s103","tooltip":"tipo,cuenca","features":[{"type":"polygon","styleName":"layer1146763_style3","fillcolor":"#FFFF73","strokecolor":"#6E6E6E","linewidth":0,"expression":"(Tipo  = 'Gas seco' )","expressionLabel":"Gas seco"},{"type":"polygon","styleName":"layer1146763_style2","fillcolor":"#AB7D5C","strokecolor":"#6E6E6E","linewidth":0,"expression":"(Tipo  = 'Gas húmedo y condensado' )","expressionLabel":"Gas húmedo y condensado"},{"type":"polygon","styleName":"layer1146763_style1","fillcolor":"#E69800","strokecolor":"#FFAA00","linewidth":0,"expression":"(Tipo  = 'En estudio' )","expressionLabel":"En estudio"},{"type":"polygon","styleName":"layer1146763_style0","fillcolor":"#38A800","strokecolor":"#6E6E6E","linewidth":0,"expression":"(Tipo  = 'Aceite' )","expressionLabel":"Aceite"}],"xmin":-12113280.79112,"ymin":1956837.428564,"xmax":-10492929.84784,"ymax":3729277.006427,"oldLayer":null},
+	"layer1147000":{"id":"layer1147000","alpha":0.7,"visible":false,"timestamp":"1496937921","src":"s105","tooltip":"id_area","features":[{"type":"polygon","styleName":"layer1147000_style3","fillcolor":"#73004C","strokecolor":"#730026","linewidth":0,"expression":"(RONDA  = 'Ronda 4'  AND TIPO  = 'Exploración' )","expressionLabel":"Ronda 4, Exploración"},{"type":"polygon","styleName":"layer1147000_style2","fillcolor":"#445C89","strokecolor":"#4C0073","linewidth":0,"expression":"(RONDA  = 'Ronda 3'  AND TIPO  = 'Exploración' AND area='No convencional')","expressionLabel":"Ronda 3, Exploración"},{"type":"polygon","styleName":"layer1147000_style1","fillcolor":"#E36C09","strokecolor":"#953734","linewidth":0,"expression":"(RONDA  = 'Ronda 2'  AND TIPO  = 'Exploración' AND area='No convencional')","expressionLabel":"Ronda 2, Exploración"},{"type":"polygon","styleName":"layer1147000_style0","fillcolor":"#00FFAA","strokecolor":"#00FF55","linewidth":0,"expression":"(RONDA  = 'Ronda 1'  AND TIPO  = 'Exploración' AND area='No convencional')","expressionLabel":"Ronda 1, Exploración"}],"xmin":-11210800.385269,"ymin":1885097.454965,"xmax":-10211707.955399,"ymax":3375646.034919,"oldLayer":null},
+	"layer1146757":{"id":"layer1146757","alpha":1,"visible":false,"timestamp":"1496937921","src":"s107","tooltip":"pozo","features":[{"type":"point","styleName":"pointstyle1146757-0","icon":"http://resources.giscloud.com/assets/icon.php?cors=1&p=%2F2564d747e0504b9a17a3a4e334c0bc12%2FHidrocarburos%2FuploadedSymbols%2FPozo_Rojo.png","dx":-13.5,"dy":-13.5}],"has_icon":true,"xmin":-11363259.615576,"ymin":2024995.888328,"xmax":-10284659.25419,"ymax":3351664.228914,"oldLayer":null},
+	"layer1146735":{"id":"layer1146735","alpha":0.6,"visible":false,"timestamp":"1496937921","src":"s109","features":[{"type":"polygon","styleName":"layer1146735_style0","fillcolor":"#FF0000","strokecolor":"#FFC000","linewidth":0}],"xmin":-11368700.671911,"ymin":2019698.556224,"xmax":-10279565.167932,"ymax":3357274.19352,"oldLayer":null},
+	"layer1909370":{"id":"layer1909370","alpha":0.77,"visible":false,"timestamp":"1496937920","src":"s113","tooltip":"sector,clave_bloq","features":[{"type":"polygon","styleName":"layer1909370_style3","fillcolor":"#E36C09","strokecolor":"#0C0C0C","linewidth":0,"expression":"categoria='TERRESTRE NO CONVENCIONAL'","expressionLabel":"Terrestre no convencional"},{"type":"polygon","styleName":"layer1909370_style2","fillcolor":"#FBD5B5","strokecolor":"#0C0C0C","linewidth":0,"expression":"categoria='TERRESTRE CONVENCIONAL'","expressionLabel":"Terrestre convencional"},{"type":"polygon","styleName":"layer1909370_style1","fillcolor":"#B8CCE4","strokecolor":"#0C0C0C","linewidth":0,"expression":"categoria='AGUAS SOMERAS'","expressionLabel":"Aguas someras"},{"type":"polygon","styleName":"layer1909370_style0","fillcolor":"#4BACC6","strokecolor":"#0C0C0C","linewidth":0,"expression":"categoria='AGUAS PROFUNDAS'","expressionLabel":"Aguas profundas"}],"xmin":-11230408.264838,"ymin":1927204.311062,"xmax":-10192459.866949,"ymax":3404216.763483,"oldLayer":null},
+	"layer1909382":{"id":"layer1909382","alpha":0.7,"visible":false,"timestamp":"1495736692","src":"s115","tooltip":"lici_ganad","features":[{"type":"polygon","styleName":"layer1909382_style0","fillcolor":"#FFCC00","strokecolor":"#FF0000","linewidth":0}],"xmin":-11054025.435772,"ymin":1965493.324828,"xmax":-10226550.554246,"ymax":3002177.630126,"oldLayer":null},
+	"layer1909371":{"id":"layer1909371","alpha":0.7,"visible":false,"timestamp":"1495735845","src":"s117","tooltip":"region","features":[{"type":"polygon","styleName":"layer1909371_style7","fillcolor":"#336600","strokecolor":"#0C0C0C","linewidth":0,"expression":"region='Áreas terrestres'","expressionLabel":"'Áreas terrestres"},{"type":"polygon","styleName":"layer1909371_style6","fillcolor":"#FF0033","strokecolor":"#0C0C0C","linewidth":0,"expression":"region='Áreas de resguardo'","expressionLabel":"Áreas de resguardo"},{"type":"polygon","styleName":"layer1909371_style5","fillcolor":"#3333CC","strokecolor":"#0C0C0C","linewidth":0,"expression":"region='Terrestre convencional'","expressionLabel":"Terrestre convencional"},{"type":"polygon","styleName":"layer1909371_style4","fillcolor":"#CC00FF","strokecolor":"#0C0C0C","linewidth":0,"expression":"region='No convencionales'","expressionLabel":"No convencionales"},{"type":"polygon","styleName":"layer1909371_style3","fillcolor":"#CC9900","strokecolor":"#0C0C0C","linewidth":0,"expression":"region='Gas no asociado'","expressionLabel":"Gas no asociado"},{"type":"polygon","styleName":"layer1909371_style2","fillcolor":"#33CCFF","strokecolor":"#0C0C0C","linewidth":0,"expression":"region='Chicontepec'","expressionLabel":"Chicontepec"},{"type":"polygon","styleName":"layer1909371_style1","fillcolor":"#66FF66","strokecolor":"#0C0C0C","linewidth":0,"expression":"region='Aguas someras'","expressionLabel":"Aguas someras"},{"type":"polygon","styleName":"layer1909371_style0","fillcolor":"#990033","strokecolor":"#0C0C0C","linewidth":0,"expression":"region='Aguas profundas'","expressionLabel":"Aguas profundas"}],"xmin":-11327685.850639,"ymin":1967437.531395,"xmax":-10204286.656087,"ymax":3312159.859818,"oldLayer":null},
+	"layer1081042":{"id":"layer1081042","alpha":0.6,"visible":false,"timestamp":"1498751279","src":"s121","tooltip":"nombre","features":[{"type":"polygon","styleName":"layer1081042_style0","fillcolor":"#92D050","strokecolor":"#267300","linewidth":0}],"xmin":-13206318.3487,"ymin":1342135.01701,"xmax":-9506376.36673,"ymax":3826924.20247,"oldLayer":null},
+	"layer1146635":{"id":"layer1146635","alpha":0.6,"visible":false,"timestamp":"1501006113","src":"s123","tooltip":"nom_anp","features":[{"type":"polygon","styleName":"layer1146635_style0","fillcolor":"#D3FFBE","strokecolor":"#55FF00","linewidth":0}],"xmin":-12354832.49333,"ymin":1634509.6165,"xmax":-9654305.13684,"ymax":3410914.84801,"oldLayer":null},
+	"layer1977779":{"id":"layer1977779","alpha":0.6,"visible":false,"timestamp":"1501006341","src":"s125","tooltip":"nom_anp","features":[{"type":"polygon","styleName":"layer1977779_style0","fillcolor":"#FFFF00","strokecolor":"#66FF33","linewidth":0}],"xmin":-12282917.55283,"ymin":1670113.60327,"xmax":-9817641.7935,"ymax":3054514.24876,"oldLayer":null},
+	"layer1081039":{"id":"layer1081039","alpha":0.6,"visible":false,"timestamp":"1496937920","src":"s129","tooltip":"nombre","features":[{"type":"polygon","styleName":"layer1081039_style0","fillcolor":"#A87000","strokecolor":"#9C9C9C","linewidth":0}],"xmin":-13025422.960064,"ymin":1666141.317378,"xmax":-9661071.942045,"ymax":3841346.152174,"oldLayer":null},
+	"layer1081040":{"id":"layer1081040","alpha":0.6,"visible":false,"timestamp":"1496937920","src":"s131","tooltip":"nombre","features":[{"type":"polygon","styleName":"layer1081040_style0","fillcolor":"#A3FF73","strokecolor":"#38A8E1","linewidth":0}],"xmin":-13182600.155559,"ymin":1659076.099681,"xmax":-9652217.946921,"ymax":3848590.244831,"oldLayer":null},
+	"layer1081038":{"id":"layer1081038","alpha":0.6,"visible":false,"timestamp":"1496937921","src":"s133","tooltip":"nombre","features":[{"type":"polygon","styleName":"layer1081038_style0","fillcolor":"#73B2FF","strokecolor":"#005CE6","linewidth":0}],"xmin":-12954201.715725,"ymin":1635876.76405,"xmax":-9617364.257567,"ymax":3858051.075848,"oldLayer":null},
+	"layer1081037":{"id":"layer1081037","alpha":0.34,"visible":false,"timestamp":"1496937920","src":"s137","tooltip":"tiponucleo,nombrenucl","features":[{"type":"polygon","styleName":"layer1081037_style0","fillcolor":"#FFFF73","strokecolor":"#343434","linewidth":0}],"xmin":-13036332.675,"ymin":1591055.914244,"xmax":-9501541.07778,"ymax":3833731.269397,"oldLayer":null},
+	"layer1081293":{"id":"layer1081293","alpha":0.6,"visible":false,"timestamp":"1496937919","src":"s139","tooltip":"lengua","features":[{"type":"polygon","styleName":"layer1081293_style60","fillcolor":"#E6842E","strokecolor":"#9B5213","linewidth":0,"expression":"lengua='Zoque'"},{"type":"polygon","styleName":"layer1081293_style59","fillcolor":"#2E34E6","strokecolor":"#13179B","linewidth":0,"expression":"lengua='Zapoteco'"},{"type":"polygon","styleName":"layer1081293_style58","fillcolor":"#E6562E","strokecolor":"#9B3013","linewidth":0,"expression":"lengua='Yaqui'"},{"type":"polygon","styleName":"layer1081293_style57","fillcolor":"#8DE62E","strokecolor":"#599B13","linewidth":0,"expression":"lengua='Tzotzil'"},{"type":"polygon","styleName":"layer1081293_style56","fillcolor":"#2EE6C7","strokecolor":"#139B85","linewidth":0,"expression":"lengua='Tzeltal'"},{"type":"polygon","styleName":"layer1081293_style55","fillcolor":"#E62E90","strokecolor":"#9B135C","linewidth":0,"expression":"lengua='Triqui'"},{"type":"polygon","styleName":"layer1081293_style54","fillcolor":"#E6372E","strokecolor":"#9B1913","linewidth":0,"expression":"lengua='Totonaca'"},{"type":"polygon","styleName":"layer1081293_style53","fillcolor":"#D1E62E","strokecolor":"#8B9B13","linewidth":0,"expression":"lengua='Tojolabal'"},{"type":"polygon","styleName":"layer1081293_style52","fillcolor":"#31E62E","strokecolor":"#159B13","linewidth":0,"expression":"lengua='Tlapaneco'"},{"type":"polygon","styleName":"layer1081293_style51","fillcolor":"#E6A92E","strokecolor":"#9B6E13","linewidth":0,"expression":"lengua='Tepehuán'"},{"type":"polygon","styleName":"layer1081293_style50","fillcolor":"#E6992E","strokecolor":"#9B6213","linewidth":0,"expression":"lengua='Tepehua'"},{"type":"polygon","styleName":"layer1081293_style49","fillcolor":"#2E2EE6","strokecolor":"#13139B","linewidth":0,"expression":"lengua='Tarahumara'"},{"type":"polygon","styleName":"layer1081293_style48","fillcolor":"#E6652E","strokecolor":"#9B3C13","linewidth":0,"expression":"lengua='Seri'"},{"type":"polygon","styleName":"layer1081293_style47","fillcolor":"#E62EB5","strokecolor":"#9B1377","linewidth":0,"expression":"lengua='Quiché'"},{"type":"polygon","styleName":"layer1081293_style46","fillcolor":"#2EE637","strokecolor":"#139B19","linewidth":0,"expression":"lengua='Purépecha'"},{"type":"polygon","styleName":"layer1081293_style45","fillcolor":"#E62E3A","strokecolor":"#9B131C","linewidth":0,"expression":"lengua='Popoluca'"},{"type":"polygon","styleName":"layer1081293_style44","fillcolor":"#E6A32E","strokecolor":"#9B6913","linewidth":0,"expression":"lengua='Popoloca'"},{"type":"polygon","styleName":"layer1081293_style43","fillcolor":"#2EE6C4","strokecolor":"#139B82","linewidth":0,"expression":"lengua='Pima'"},{"type":"polygon","styleName":"layer1081293_style42","fillcolor":"#E62E47","strokecolor":"#9B1325","linewidth":0,"expression":"lengua='Pame'"},{"type":"polygon","styleName":"layer1081293_style41","fillcolor":"#E62E56","strokecolor":"#9B1330","linewidth":0,"expression":"lengua='Paipai'"},{"type":"polygon","styleName":"layer1081293_style40","fillcolor":"#E65C2E","strokecolor":"#9B3513","linewidth":0,"expression":"lengua='Otomí'"},{"type":"polygon","styleName":"layer1081293_style39","fillcolor":"#2E71E6","strokecolor":"#13459B","linewidth":0,"expression":"lengua='Náhuatl de Michoacan'"},{"type":"polygon","styleName":"layer1081293_style38","fillcolor":"#2EE696","strokecolor":"#139B60","linewidth":0,"expression":"lengua='Náhuatl de Durango'"},{"type":"polygon","styleName":"layer1081293_style37","fillcolor":"#2EE662","strokecolor":"#139B39","linewidth":0,"expression":"lengua='Náhuatl Zongolica - Pico de Orizaba'"},{"type":"polygon","styleName":"layer1081293_style36","fillcolor":"#E62ECA","strokecolor":"#9B1387","linewidth":0,"expression":"lengua='Náhuatl SLP, SNP, NVER'"},{"type":"polygon","styleName":"layer1081293_style35","fillcolor":"#2EE6B2","strokecolor":"#139B75","linewidth":0,"expression":"lengua='Náhuatl GRO, Altiplano, EDOMEX, OAX'"},{"type":"polygon","styleName":"layer1081293_style34","fillcolor":"#2EE6B5","strokecolor":"#139B77","linewidth":0,"expression":"lengua='Náhuatl  del Sur  de Veracruz'"},{"type":"polygon","styleName":"layer1081293_style33","fillcolor":"#A92EE6","strokecolor":"#6E139B","linewidth":0,"expression":"lengua='Mixteco de la Mixteca Alta'"},{"type":"polygon","styleName":"layer1081293_style32","fillcolor":"#84E62E","strokecolor":"#529B13","linewidth":0,"expression":"lengua='Mixteco'"},{"type":"polygon","styleName":"layer1081293_style31","fillcolor":"#84E62E","strokecolor":"#529B13","linewidth":0,"expression":"lengua='Mixe'"},{"type":"polygon","styleName":"layer1081293_style30","fillcolor":"#62E62E","strokecolor":"#399B13","linewidth":0,"expression":"lengua='Mazateco'"},{"type":"polygon","styleName":"layer1081293_style29","fillcolor":"#2E9FE6","strokecolor":"#13679B","linewidth":0,"expression":"lengua='Mazahua'"},{"type":"polygon","styleName":"layer1081293_style28","fillcolor":"#622EE6","strokecolor":"#39139B","linewidth":0,"expression":"lengua='Mayo'"},{"type":"polygon","styleName":"layer1081293_style27","fillcolor":"#E6592E","strokecolor":"#9B3313","linewidth":0,"expression":"lengua='Maya Lacandón'"},{"type":"polygon","styleName":"layer1081293_style26","fillcolor":"#E6932E","strokecolor":"#9B5E13","linewidth":0,"expression":"lengua='Maya'"},{"type":"polygon","styleName":"layer1081293_style25","fillcolor":"#2EB2E6","strokecolor":"#13759B","linewidth":0,"expression":"lengua='Matlatzinca'"},{"type":"polygon","styleName":"layer1081293_style24","fillcolor":"#2EE65F","strokecolor":"#139B37","linewidth":0,"expression":"lengua='Mame'"},{"type":"polygon","styleName":"layer1081293_style23","fillcolor":"#E62EAC","strokecolor":"#9B1370","linewidth":0,"expression":"lengua='Kumiai'"},{"type":"polygon","styleName":"layer1081293_style22","fillcolor":"#E62EE6","strokecolor":"#9B139B","linewidth":0,"expression":"lengua='Kiliwa'"},{"type":"polygon","styleName":"layer1081293_style21","fillcolor":"#2EAFE6","strokecolor":"#13729B","linewidth":0,"expression":"lengua='Kikapu'"},{"type":"polygon","styleName":"layer1081293_style20","fillcolor":"#56E62E","strokecolor":"#309B13","linewidth":0,"expression":"lengua='Kekchi'"},{"type":"polygon","styleName":"layer1081293_style19","fillcolor":"#E6AF2E","strokecolor":"#9B7213","linewidth":0,"expression":"lengua='Kanjobal'"},{"type":"polygon","styleName":"layer1081293_style18","fillcolor":"#2EA3E6","strokecolor":"#13699B","linewidth":0,"expression":"lengua='Jacalteco'"},{"type":"polygon","styleName":"layer1081293_style17","fillcolor":"#E64D2E","strokecolor":"#9B2913","linewidth":0,"expression":"lengua='Huichol'"},{"type":"polygon","styleName":"layer1081293_style16","fillcolor":"#7EE62E","strokecolor":"#4E9B13","linewidth":0,"expression":"lengua='Huave'"},{"type":"polygon","styleName":"layer1081293_style15","fillcolor":"#2EE3E6","strokecolor":"#13999B","linewidth":0,"expression":"lengua='Huasteco'"},{"type":"polygon","styleName":"layer1081293_style14","fillcolor":"#E62ED4","strokecolor":"#9B138E","linewidth":0,"expression":"lengua='Guarijio'"},{"type":"polygon","styleName":"layer1081293_style13","fillcolor":"#E66E2E","strokecolor":"#9B4213","linewidth":0,"expression":"lengua='Cuicateco'"},{"type":"polygon","styleName":"layer1081293_style12","fillcolor":"#E62E53","strokecolor":"#9B132E","linewidth":0,"expression":"lengua='Cucapa'"},{"type":"polygon","styleName":"layer1081293_style11","fillcolor":"#E62E6B","strokecolor":"#9B1340","linewidth":0,"expression":"lengua='Cora'"},{"type":"polygon","styleName":"layer1081293_style10","fillcolor":"#2E71E6","strokecolor":"#13459B","linewidth":0,"expression":"lengua='Cochimi'"},{"type":"polygon","styleName":"layer1081293_style9","fillcolor":"#E6902E","strokecolor":"#9B5C13","linewidth":0,"expression":"lengua='Chuj - Kanjobal'"},{"type":"polygon","styleName":"layer1081293_style8","fillcolor":"#2EE67E","strokecolor":"#139B4E","linewidth":0,"expression":"lengua='Chuj'"},{"type":"polygon","styleName":"layer1081293_style7","fillcolor":"#E6CA2E","strokecolor":"#9B8713","linewidth":0,"expression":"lengua='Chontal de Tabasco'"},{"type":"polygon","styleName":"layer1081293_style6","fillcolor":"#2E93E6","strokecolor":"#135E9B","linewidth":0,"expression":"lengua='Chontal de Oaxaca'"},{"type":"polygon","styleName":"layer1081293_style5","fillcolor":"#E62EAF","strokecolor":"#9B1372","linewidth":0,"expression":"lengua='Chol'"},{"type":"polygon","styleName":"layer1081293_style4","fillcolor":"#2EE63A","strokecolor":"#139B1C","linewidth":0,"expression":"lengua='Chocho'"},{"type":"polygon","styleName":"layer1081293_style3","fillcolor":"#E6A62E","strokecolor":"#9B6C13","linewidth":0,"expression":"lengua='Chinanteco'"},{"type":"polygon","styleName":"layer1081293_style2","fillcolor":"#C7E62E","strokecolor":"#859B13","linewidth":0,"expression":"lengua='Chichimeca Jonaz'"},{"type":"polygon","styleName":"layer1081293_style1","fillcolor":"#E62ECD","strokecolor":"#9B1389","linewidth":0,"expression":"lengua='Chatino'"},{"type":"polygon","styleName":"layer1081293_style0","fillcolor":"#E62EA6","strokecolor":"#9B136C","linewidth":0,"expression":"lengua='Amuzgo'"}],"xmin":-12993100.960609,"ymin":1702557.888457,"xmax":-9517394.381358,"ymax":3795050.141621,"oldLayer":null},
+	"layer1081291":{"id":"layer1081291","alpha":1,"visible":true,"timestamp":"1441047764","src":"s141","features":[{"type":"polygon","styleName":"layer1081291_style0","strokecolor":"#FFFFFF","linewidth":0}],"xmin":-13181079.254032,"ymin":1635334.466414,"xmax":-9652558.161141,"ymax":3858019.19792,"oldLayer":null},
+	"layer1081292":{"id":"layer1081292","alpha":1,"visible":false,"timestamp":"1440954830","src":"s143","tooltip":"nom_mun","features":[{"type":"polygon","styleName":"layer1081292_style0","strokecolor":"#FFFF00","linewidth":0}],"xmin":-13181079.254032,"ymin":1635334.466414,"xmax":-9652558.161141,"ymax":3858019.19792,"oldLayer":null},
+	"layer1929948":{"id":"layer1929948","alpha":1,"visible":false,"src":"s145","timestamp":"1496937919","features":[],"xmin":-20037508.3427892,"ymin":-20037508.3427892,"xmax":20037508.3427892,"ymax":20037508.3427892,"oldLayer":null},
+	"layer1083148":{"id":"layer1083148","alpha":1,"visible":false,"src":"s147","timestamp":"1434850410","features":[],"xmin":-20037508.3427892,"ymin":-20037508.3427892,"xmax":20037508.3427892,"ymax":20037508.3427892,"oldLayer":null},
+	"layer1083149":{"id":"layer1083149","alpha":1,"visible":false,"src":"s149","timestamp":"1434850466","features":[],"xmin":-20037508.3427892,"ymin":-20037508.3427892,"xmax":20037508.3427892,"ymax":20037508.3427892,"oldLayer":null},
+	"layer1081120":{"id":"layer1081120","alpha":1,"visible":true,"src":"s151","timestamp":"1434647513","features":[],"xmin":-20037508.3427892,"ymin":-20037508.3427892,"xmax":20037508.3427892,"ymax":20037508.3427892,"oldLayer":null},
+	"llayer1081034":{"id":"llayer1081034","alpha":1,"visible":false,"timestamp":"1496937920","src":"s61","features":[{"type":"label","styleName":"label_text_style1081034_0","outline":"0xFFFFFF","fontname":"Arial Black","fontsize":12,"color":"0xFF0000","anchor":"B"}],"xmin":-12982646.416138,"ymin":1609268.14373,"xmax":-9757856.472584,"ymax":3827797.79427,"oldLayer":null},
+	"llayer1146650":{"id":"llayer1146650","alpha":1,"visible":false,"timestamp":"1496937921","src":"s63","features":[{"type":"label","styleName":"label_text_style1146650_0","outline":"0xFFFFFF","fontname":"Arial Black","fontsize":12,"color":"0xE36C09"}],"xmin":-12982646.416138,"ymin":1735846.52658,"xmax":-9748672.882572,"ymax":3826869.098866,"oldLayer":null},
+	"llayer1081292":{"id":"llayer1081292","alpha":1,"visible":false,"timestamp":"1440954830","src":"s143","features":[{"type":"label","styleName":"label_text_style1081292_0","outline":"0xFFFFFF","fontname":"Arial Black","fontsize":12,"color":"0x000000","anchor":"B"}],"xmin":-13181079.254032,"ymin":1635334.466414,"xmax":-9652558.161141,"ymax":3858019.19792,"oldLayer":null},
+	"layer2097562": {
+		"id": "layer2097562",
+		"alpha": 0.3,
+		"visible": true,
+		"timestamp": "1509032678",
+		"src": "s3",
+		"features": [
+			{
+				"type": "polygon",
+				"styleName": "layer2097562_style0",
+				"fillcolor": "#00B050",
+				"strokecolor": "#000000",
+				"linewidth": 0,
+				"icon":"http://editor.giscloud.com/rest/1/icons/landcover/Grass.png?color=%23006f9e&size=32",
+				"expression": "tipo_de__n='Aprovechamiento de Recursos Forestales Maderables' OR tipo_de__n='Aprovechamiento de Recursos Forestales Maderables Unificado' OR tipo_de__n='Modificaciones de Aprovechamiento Forestal Maderable' OR tipo_de__n='Refrendo de Aprovechamiento Forestal Maderable'",
+				"expressionLabel": "Aprovechamiento de Recursos Forestales Maderables"
+			}
+		],
+		"has_icon": false,
+		"xmin": -13037205.31871,
+		"ymin": 1638295.69674,
+		"xmax": -9659828.8523,
+		"ymax": 3847482.98071,
+		"oldLayer": null
+	},
+	"llayer1036216": {
+		"id": "llayer1036216",
+		"alpha": 1,
+		"visible": true,
+		"timestamp": "1513566744",
+		"src": "s1",
+		"features": [
+			{
+				"type": "label",
+				"styleName": "label_text_style1036216_0",
+				"outline": "0xFFFFFF",
+				"fontname": "Arial",
+				"fontsize": 12,
+				"color": "0x000000",
+				"anchor": "B"
+			}
+		],
+		"xmin": -8879130.90315,
+		"ymin": 4935561.06357,
+		"xmax": -7990233.74854,
+		"ymax": 5624019.45148,
+		"oldLayer": null
+	},
+	"layer1036216": {
+		"id": "layer1036216",
+		"alpha": 0.74,
+		"visible": true,
+		"timestamp": "1513566744",
+		"src": "s1",
+		"features": [
+			{
+				"type": "polygon",
+				"styleName": "layer1036216_style0",
+				"fillcolor": "#C3E6B3",
+				"strokecolor": "#B9FF99",
+				"linewidth": 0,
+				"icon": "http://editor.giscloud.com/rest/1/icons/landusing/Rice.png?color=%23006f9e&size=32",
+				"expressionLabel": ""
+			}
+		],
+		"has_icon": true,
+		"xmin": -8879130.90315,
+		"ymin": 4935561.06357,
+		"xmax": -7990233.74854,
+		"ymax": 5624019.45148,
+		"oldLayer": null
+	},
+	"layer10362161": {
+		"id": "layer1036216",
+		"alpha": 0.77,
+		"visible": true,
+		"timestamp": "1325168292",
+		"src": "s1",
+		"features": [
+			{
+				"type": "polygon",
+				"styleName": "layer1036216_style61",
+				"fillcolor": "#CC7066",
+				"strokecolor": "#CC1400",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='099'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style60",
+				"fillcolor": "#CC6666",
+				"strokecolor": "#CC0000",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='033'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style59",
+				"fillcolor": "#CC6670",
+				"strokecolor": "#CC0014",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='097'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style58",
+				"fillcolor": "#CC667A",
+				"strokecolor": "#CC0029",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='019'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style57",
+				"fillcolor": "#CC6685",
+				"strokecolor": "#CC003D",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='081'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style56",
+				"fillcolor": "#CC668F",
+				"strokecolor": "#CC0052",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='053'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style55",
+				"fillcolor": "#CC6699",
+				"strokecolor": "#CC0066",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='079'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style54",
+				"fillcolor": "#CC66A3",
+				"strokecolor": "#CC007A",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='029'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style53",
+				"fillcolor": "#CC66AD",
+				"strokecolor": "#CC008F",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='027'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style52",
+				"fillcolor": "#CC66B8",
+				"strokecolor": "#CC00A3",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='035'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style51",
+				"fillcolor": "#CC66C2",
+				"strokecolor": "#CC00B8",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='041'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style50",
+				"fillcolor": "#CC66CC",
+				"strokecolor": "#CC00CC",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='059'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style49",
+				"fillcolor": "#C266CC",
+				"strokecolor": "#B800CC",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='021'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style48",
+				"fillcolor": "#B866CC",
+				"strokecolor": "#A300CC",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='051'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style47",
+				"fillcolor": "#AD66CC",
+				"strokecolor": "#8F00CC",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='009'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style46",
+				"fillcolor": "#A366CC",
+				"strokecolor": "#7A00CC",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='031'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style45",
+				"fillcolor": "#9966CC",
+				"strokecolor": "#6600CC",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='015'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style44",
+				"fillcolor": "#8F66CC",
+				"strokecolor": "#5200CC",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='091'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style43",
+				"fillcolor": "#8566CC",
+				"strokecolor": "#3D00CC",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='119'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style42",
+				"fillcolor": "#7A66CC",
+				"strokecolor": "#2900CC",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='067'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style41",
+				"fillcolor": "#7066CC",
+				"strokecolor": "#1400CC",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='123'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style40",
+				"fillcolor": "#6666CC",
+				"strokecolor": "#0000CC",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='013'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style39",
+				"fillcolor": "#6670CC",
+				"strokecolor": "#0014CC",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='085'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style38",
+				"fillcolor": "#667ACC",
+				"strokecolor": "#0029CC",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='109'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style37",
+				"fillcolor": "#6685CC",
+				"strokecolor": "#003DCC",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='005'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style36",
+				"fillcolor": "#668FCC",
+				"strokecolor": "#0052CC",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='121'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style35",
+				"fillcolor": "#6699CC",
+				"strokecolor": "#0066CC",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='075'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style34",
+				"fillcolor": "#66A3CC",
+				"strokecolor": "#007ACC",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='055'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style33",
+				"fillcolor": "#66ADCC",
+				"strokecolor": "#008FCC",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='049'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style32",
+				"fillcolor": "#66B8CC",
+				"strokecolor": "#00A3CC",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='105'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style31",
+				"fillcolor": "#66C2CC",
+				"strokecolor": "#00B8CC",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='045'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style30",
+				"fillcolor": "#66CCCC",
+				"strokecolor": "#00CCCC",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='087'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style29",
+				"fillcolor": "#66CCC2",
+				"strokecolor": "#00CCB8",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='077'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style28",
+				"fillcolor": "#66CCB8",
+				"strokecolor": "#00CCA3",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='117'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style27",
+				"fillcolor": "#66CCAD",
+				"strokecolor": "#00CC8F",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='061'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style26",
+				"fillcolor": "#66CCA3",
+				"strokecolor": "#00CC7A",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='115'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style25",
+				"fillcolor": "#66CC99",
+				"strokecolor": "#00CC66",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='003'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style24",
+				"fillcolor": "#66CC8F",
+				"strokecolor": "#00CC52",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='103'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style23",
+				"fillcolor": "#66CC85",
+				"strokecolor": "#00CC3D",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='011'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style22",
+				"fillcolor": "#66CC7A",
+				"strokecolor": "#00CC29",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='023'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style21",
+				"fillcolor": "#66CC70",
+				"strokecolor": "#00CC14",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='043'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style20",
+				"fillcolor": "#66CC66",
+				"strokecolor": "#00CC00",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='093'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style19",
+				"fillcolor": "#70CC66",
+				"strokecolor": "#14CC00",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='095'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style18",
+				"fillcolor": "#7ACC66",
+				"strokecolor": "#29CC00",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='057'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style17",
+				"fillcolor": "#85CC66",
+				"strokecolor": "#3DCC00",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='065'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style16",
+				"fillcolor": "#8FCC66",
+				"strokecolor": "#52CC00",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='073'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style15",
+				"fillcolor": "#99CC66",
+				"strokecolor": "#66CC00",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='069'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style14",
+				"fillcolor": "#A3CC66",
+				"strokecolor": "#7ACC00",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='025'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style13",
+				"fillcolor": "#ADCC66",
+				"strokecolor": "#8FCC00",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='101'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style12",
+				"fillcolor": "#B8CC66",
+				"strokecolor": "#A3CC00",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='071'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style11",
+				"fillcolor": "#C2CC66",
+				"strokecolor": "#B8CC00",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='039'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style10",
+				"fillcolor": "#CCCC66",
+				"strokecolor": "#CCCC00",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='001'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style9",
+				"fillcolor": "#CCC266",
+				"strokecolor": "#CCB800",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='111'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style8",
+				"fillcolor": "#CCB866",
+				"strokecolor": "#CCA300",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='107'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style7",
+				"fillcolor": "#CCAD66",
+				"strokecolor": "#CC8F00",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='047'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style6",
+				"fillcolor": "#CCA366",
+				"strokecolor": "#CC7A00",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='017'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style5",
+				"fillcolor": "#CC9966",
+				"strokecolor": "#CC6600",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='037'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style4",
+				"fillcolor": "#CC8F66",
+				"strokecolor": "#CC5200",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='089'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style3",
+				"fillcolor": "#CC8566",
+				"strokecolor": "#CC3D00",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='063'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style2",
+				"fillcolor": "#CC7A66",
+				"strokecolor": "#CC2900",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='007'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style1",
+				"fillcolor": "#CC7066",
+				"strokecolor": "#CC1400",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='083'"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036216_style0",
+				"fillcolor": "#CC6666",
+				"strokecolor": "#CC0000",
+				"linewidth": 0,
+				"expression": "COUNTYFP10='113'"
+			}
+		],
+		"xmin": -8879130.90315,
+		"ymin": 4935561.06357,
+		"xmax": -7990233.74854,
+		"ymax": 5624019.45148,
+		"oldLayer": null
+	},
+	"layer1036215": {
+		"id": "layer1036215",
+		"alpha": 1,
+		"visible": true,
+		"timestamp": "1325191598",
+		"src": "s1",
+		"features": [
+			{
+				"type": "polygon",
+				"styleName": "layer1036215_style4",
+				"fillcolor": "#F71E1E",
+				"strokecolor": "#BF002D",
+				"linewidth": 0,
+				"expression": "unemployme>=20 AND unemployme <= 31",
+				"expressionLabel": "unemployme>=24.86 AND unemployme <= 30.799999999999997"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036215_style3",
+				"fillcolor": "#FFA01C",
+				"strokecolor": "#C9560E",
+				"linewidth": 0,
+				"expression": "unemployme>=15 AND unemployme < 20",
+				"expressionLabel": "unemployme>=18.92 AND unemployme < 24.86"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036215_style2",
+				"fillcolor": "#FFEB36",
+				"strokecolor": "#FFC640",
+				"linewidth": 0,
+				"expression": "unemployme>=10 AND unemployme < 15",
+				"expressionLabel": "unemployme>=12.979999999999999 AND unemployme < 18.919999999999998"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036215_style1",
+				"fillcolor": "#9CF233",
+				"strokecolor": "#54D404",
+				"linewidth": 0,
+				"expression": "unemployme>=5 AND unemployme < 10",
+				"expressionLabel": "unemployme>=7.039999999999999 AND unemployme < 12.979999999999999"
+			}, {
+				"type": "polygon",
+				"styleName": "layer1036215_style0",
+				"fillcolor": "#1CE63A",
+				"strokecolor": "#20BA2F",
+				"linewidth": 0,
+				"expression": "unemployme>=1 AND unemployme < 5",
+				"expressionLabel": "unemployme>=1.1 AND unemployme < 7.039999999999999"
+			}
+		],
+		"xmin": -179.23109,
+		"ymin": 17.84427,
+		"xmax": 179.85968,
+		"ymax": 71.43884,
+		"oldLayer": null
+	},
+	"layer1036207": {
+		"id": "layer1036207",
+		"alpha": 1,
+		"visible": true,
+		"src": "s9",
+		"timestamp": "1325120450",
+		"features": [],
+		"xmin": -20037508.3427892,
+		"ymin": -20037508.3427892,
+		"xmax": 20037508.3427892,
+		"ymax": 20037508.3427892,
+		"oldLayer": null
+	},
+	"layer1036209": {
+		"id": "layer1036209",
+		"alpha": 1,
+		"visible": false,
+		"type": "raster",
+		"src": "s7",
+		"timestamp": "1325120453",
+		"features": [
+			{
+			}
+		],
+		"xmin": -17631532.08179,
+		"ymin": 2416275.734433,
+		"xmax": -17538730.517952,
+		"ymax": 2487569.382571,
+		"oldLayer": null,
+		"format": "jpg"
+	},
+	"layer1036208": {
+		"id": "layer1036208",
+		"alpha": 1,
+		"visible": false,
+		"timestamp": "1325120683",
+		"src": "s5",
+		"features": [
+			{
+				"type": "line",
+				"styleName": "layer1036208_style0",
+				"strokecolor": "#1000F0",
+				"linewidth": 2
+			}
+		],
+		"xmin": -17612935.727055,
+		"ymin": 2422466.550545,
+		"xmax": -17553802.803536,
+		"ymax": 2473473.896863,
+		"oldLayer": null
+	},
+	"layer1036211": {
+		"id": "layer1036211",
+		"alpha": 1,
+		"visible": true,
+		"timestamp": "1325155366",
+		"src": "s3",
+		"features": [
+			{
+				"type": "line",
+				"styleName": "layer1036211_style0",
+				"strokecolor": "#00FF0D",
+				"linewidth": 2
+			}
+		],
+		"xmin": -17612924.63338,
+		"ymin": 2422469.711874,
+		"xmax": -17553802.518719,
+		"ymax": 2473616.524572,
+		"oldLayer": null
+	},
+	"layer1036210": {
+		"id": "layer1036210",
+		"alpha": 1,
+		"visible": true,
+		"timestamp": "1325120452",
+		"src": "s1",
+		"features": [
+			{
+				"type": "point",
+				"styleName": "pointstyle1036210-0",
+				"icon": "http://resources.giscloud.com/assets/icon.php?cors=1&p=%2Ficons%2Fdefaulticon.png",
+				"dx": -5,
+				"dy": -5
+			}
+		],
+		"has_icon": true,
+		"xmin": -17612920.321522,
+		"ymin": 2422506.061896,
+		"xmax": -17553821.677483,
+		"ymax": 2473616.530726,
+		"oldLayer": null
+	}
+}
